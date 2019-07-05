@@ -21,3 +21,8 @@
 
 TOOL For DDOS ATTACK
 -  A.T.H.Security.py é uma ferramenta de inundação HTTP para DoS. Ele pode segmentar URLs e usa a designação de porta.
+
+- Criado Pelo Grupo - A Legiao The Hacker Security
+- Group - A.T.H.Security
+- Lider - @codigo_negro
+- page_facebook - A Legiao The Hacker Security
