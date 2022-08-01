@@ -1,4 +1,5 @@
-# DDOS-ATTACK
+# RED TEAM SCRIPTS - CDE
+` CYBER DEFENSE WORKSTATION `
     _      _     _____ ____ ___    _    ___    _____ _   _ _____ 
    / \    | |   | ____/ ___|_ _|  / \  / _ \  |_   _| | | | ____|
   / _ \   | |   |  _|| |  _ | |  / _ \| | | |   | | | |_| |  _|  
